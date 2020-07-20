@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Font Awesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
+    <style>
+        i{           
+            font-size: 32px;
+            cursor: pointer;
+        }
+        .far,.fas{
+            color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <i class="far fa-heart" onclick="favIcon(this)"></i>    
+    <script>
+      function favIcon(x) {
+        x.classList.toggle("fas");
+      }
+    </script>
+  </body>
+</html>
